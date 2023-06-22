@@ -23,7 +23,7 @@ data "terraform_remote_state" "vpc" {
   backend = "s3"
   config = {
     bucket = "lucas0cezarioteste"
-    key    = "aws-PIPE-GIT/terraform.tfstate"
+    key    = "aws-vpc/terraform.tfstate"
     region = "us-west-2"
   }
 }
